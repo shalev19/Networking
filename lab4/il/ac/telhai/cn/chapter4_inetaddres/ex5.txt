@@ -1,0 +1,23 @@
+Script started on Mon 03 May 2021 03:04:16 PM IDT
+cs316371103@cs:~$ telnet localhost 25
+Trying ::1...
+Trying 127.0.0.1...
+Connected to localhost.
+Escape character is '^]'.
+220 cs ESMTP Postfix (Ubuntu)
+mail from: cs316371103
+250 2.1.0 Ok
+rcpt to: cs314674714
+250 2.1.5 Ok
+data 
+354 End data with <CR><LF>.<CR><LF>
+Subject: CN Lab4 
+Hi honey <3
+.
+250 2.0.0 Ok: queued as 25D0619FC74
+quit
+221 2.0.0 Bye
+Connection closed by foreign host.
+cs316371103@cs:~$ exit
+
+Script done on Mon 03 May 2021 03:06:59 PM IDT

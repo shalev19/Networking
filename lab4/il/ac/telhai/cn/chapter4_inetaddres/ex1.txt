@@ -1,0 +1,7 @@
+> cn.abziz.dev 
+Server:  dns.google
+Address:  2001:4860:4860::8888
+
+Name:    cn.abziz.dev
+Address:  133.7.133.7
+

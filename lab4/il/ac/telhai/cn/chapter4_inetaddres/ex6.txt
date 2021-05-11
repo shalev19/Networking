@@ -1,0 +1,35 @@
+Script started on Mon 03 May 2021 03:07:43 PM IDT
+]0;cs314674714@cs: ~cs314674714@cs:~$ telnet localhost 110
+Trying ::1...
+Connected to localhost.
+Escape character is '^]'.
++OK Hello there.
+user cs314674714
++OK Password required.
+pass **************
++OK logged in.
+list
++OK POP3 clients that break here, they violate STD53.
+1 425
+.
+retr 1
++OK 425 octets follow.
+Return-Path: <cs316371103@cs.telhai.ac.il>
+X-Original-To: cs314674714
+Delivered-To: cs314674714@cs.telhai.ac.il
+Received: from localhost (localhost [127.0.0.1])
+	by cs (Postfix) with SMTP id 25D0619FC74
+	for <cs314674714>; Mon,  3 May 2021 15:05:03 +0300 (IDT)
+Subject: CN Lab4
+Message-Id: <20210503120532.25D0619FC74@cs>
+Date: Mon,  3 May 2021 15:05:03 +0300 (IDT)
+From: cs316371103@cs.telhai.ac.il
+
+Hi honey <3
+.
+quit
++OK Bye-bye.
+Connection closed by foreign host.
+]0;cs314674714@cs: ~cs314674714@cs:~$ exit
+
+Script done on Mon 03 May 2021 03:10:36 PM IDT
